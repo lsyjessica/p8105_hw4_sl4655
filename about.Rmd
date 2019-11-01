@@ -1,0 +1,85 @@
+---
+title: "About Me"
+author: "Shuya Liu"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+EDUCATION
+---
+##### Columbia University	
+
+Expected May 2021
+
+Master of Science, Biostatistics
+
+##### Brandeis University	
+
+08/2014-06/2018
+
+Bachelor of Arts, Double Major in Mathematics and Economics, GPA 3.6
+
+PROFESSIONAL EXPERIENCE
+---
+##### Peltast Partners, Inc.	
+New York, NY
+
+Data Science Consultant	
+
+06/2019-09/2019
+
+####### Energy Consumption Research:
+
+* Conducted research on energy sources and energy consumptions over 50 states, provided energy data and analysis with more than 70 pages of a PowerPoint report, visualized and interpreted the variation, patterns, and trends of average annual growth rate, and projected potential energy consumption using R ggplot2 and tidyverse packages
+* Communicated with clients and provided detailed data science R Markdown report with more than 20 methods of portfolios to help with decision making on potential 500 million dollars of investment
+
+####### Cryptocurrencies Research:
+
+* Conducted analysis on the historical price data of the top 10 cryptocurrencies, and studied short-, intermediate- and long-term trends of their market value and capitalization benchmarked against S&P 500, PE, and HF
+* Provided more than 50 different scenarios of 5-year annual portfolio and communicated with clients on financial decision  
+
+##### Beijing Zhangsansong Technology Development Co., Ltd.	
+Beijing, China
+
+Risk Data Scientist Intern	
+
+06/2018-08/2018
+
+* Developed a data visualization platform to analyze and summarize more than 1000 financial data to automatically generate 3 daily reports and weekly reports using R Markdown with ggplot2 and tidyverse packages
+* Classified business owners using a scoring system, provided insights on credibility of business owners, and generated reports for daily reviews by using R and Excel pivot tables and functions
+* Evaluated more than 20 customer representatives’ daily and weekly performance with data visuals using R
+
+##### Brandeis University	
+
+Waltham, MA
+
+Research Assistant                                      	                  
+
+11/2017
+
+####### Analysis of Crime Rate with Historical Data using R 
+
+* Explored possible causes of crime rate increase, examined potential correlation between level of income and crime rate, investigated whether the implementation of shall law helped control crime rate
+* Analyzed longitudinal data of demographic, occupational, and crime across country from 1977 to 2011
+* Performed statistical testing and built model to predict crime rate with or without shall law 
+
+##### Business Big Data (BBD)	
+
+Chengdu, China
+
+Data Scientist Intern	
+
+06/2017-08/2017
+
+* Co-author a statistical software package reference manual based on Python to streamline the modeling process in business intelligence team
+* Performed analysis on judgement by selecting keywords from large number of documents, classified companies using a scoring system and developed blacklisting rules through big data analysis
+* Processed and performed descriptive analysis of data in BBD database, cross-check auto-generated blacklists data with and user-generated blacklist of companies
+* Presented reports for database developers by providing feasible solutions to multiple deficiencies
+
+ADDITIONAL INFORMATION
+---
+* Computer Skills: Excel(Proficient), PowerPoint(prodifcient), R(proficient), SAS(proficient), SQL (proficient), Python
+* Languages: Mandarin (native), English (proficient)

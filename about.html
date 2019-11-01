@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Shuya Liu" />
+
+
+<title>About Me</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="mailto:&lt;sl4655@cumc.columbia.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/lsyjessica">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">About Me</h1>
+<h4 class="author">Shuya Liu</h4>
+
+</div>
+
+
+<div id="education" class="section level2">
+<h2>EDUCATION</h2>
+<div id="columbia-university" class="section level5">
+<h5>Columbia University</h5>
+<p>Expected May 2021</p>
+<p>Master of Science, Biostatistics</p>
+</div>
+<div id="brandeis-university" class="section level5">
+<h5>Brandeis University</h5>
+<p>08/2014-06/2018</p>
+<p>Bachelor of Arts, Double Major in Mathematics and Economics, GPA 3.6</p>
+</div>
+</div>
+<div id="professional-experience" class="section level2">
+<h2>PROFESSIONAL EXPERIENCE</h2>
+<div id="peltast-partners-inc." class="section level5">
+<h5>Peltast Partners, Inc.</h5>
+<p>New York, NY</p>
+<p>Data Science Consultant</p>
+<p>06/2019-09/2019</p>
+<div id="energy-consumption-research" class="section level7">
+<p>Energy Consumption Research:</p>
+<ul>
+<li>Conducted research on energy sources and energy consumptions over 50 states, provided energy data and analysis with more than 70 pages of a PowerPoint report, visualized and interpreted the variation, patterns, and trends of average annual growth rate, and projected potential energy consumption using R ggplot2 and tidyverse packages</li>
+<li>Communicated with clients and provided detailed data science R Markdown report with more than 20 methods of portfolios to help with decision making on potential 500 million dollars of investment</li>
+</ul>
+</div>
+<div id="cryptocurrencies-research" class="section level7">
+<p>Cryptocurrencies Research:</p>
+<ul>
+<li>Conducted analysis on the historical price data of the top 10 cryptocurrencies, and studied short-, intermediate- and long-term trends of their market value and capitalization benchmarked against S&amp;P 500, PE, and HF</li>
+<li>Provided more than 50 different scenarios of 5-year annual portfolio and communicated with clients on financial decision</li>
+</ul>
+</div>
+</div>
+<div id="beijing-zhangsansong-technology-development-co.-ltd." class="section level5">
+<h5>Beijing Zhangsansong Technology Development Co., Ltd.</h5>
+<p>Beijing, China</p>
+<p>Risk Data Scientist Intern</p>
+<p>06/2018-08/2018</p>
+<ul>
+<li>Developed a data visualization platform to analyze and summarize more than 1000 financial data to automatically generate 3 daily reports and weekly reports using R Markdown with ggplot2 and tidyverse packages</li>
+<li>Classified business owners using a scoring system, provided insights on credibility of business owners, and generated reports for daily reviews by using R and Excel pivot tables and functions</li>
+<li>Evaluated more than 20 customer representatives’ daily and weekly performance with data visuals using R</li>
+</ul>
+</div>
+<div id="brandeis-university-1" class="section level5">
+<h5>Brandeis University</h5>
+<p>Waltham, MA</p>
+<p>Research Assistant</p>
+<p>11/2017</p>
+<div id="analysis-of-crime-rate-with-historical-data-using-r" class="section level7">
+<p>Analysis of Crime Rate with Historical Data using R</p>
+<ul>
+<li>Explored possible causes of crime rate increase, examined potential correlation between level of income and crime rate, investigated whether the implementation of shall law helped control crime rate</li>
+<li>Analyzed longitudinal data of demographic, occupational, and crime across country from 1977 to 2011</li>
+<li>Performed statistical testing and built model to predict crime rate with or without shall law</li>
+</ul>
+</div>
+</div>
+<div id="business-big-data-bbd" class="section level5">
+<h5>Business Big Data (BBD)</h5>
+<p>Chengdu, China</p>
+<p>Data Scientist Intern</p>
+<p>06/2017-08/2017</p>
+<ul>
+<li>Co-author a statistical software package reference manual based on Python to streamline the modeling process in business intelligence team</li>
+<li>Performed analysis on judgement by selecting keywords from large number of documents, classified companies using a scoring system and developed blacklisting rules through big data analysis</li>
+<li>Processed and performed descriptive analysis of data in BBD database, cross-check auto-generated blacklists data with and user-generated blacklist of companies</li>
+<li>Presented reports for database developers by providing feasible solutions to multiple deficiencies</li>
+</ul>
+</div>
+</div>
+<div id="additional-information" class="section level2">
+<h2>ADDITIONAL INFORMATION</h2>
+<ul>
+<li>Computer Skills: Excel(Proficient), PowerPoint(prodifcient), R(proficient), SAS(proficient), SQL (proficient), Python</li>
+<li>Languages: Mandarin (native), English (proficient)</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
